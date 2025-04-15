@@ -1,27 +1,82 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Blezgo Couriers</title>
+  <title>Blezgo Couriers | Trusted Transport & Logistics</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="hero">
-    <div class="navbar">
-      <img src="assets/logo.png" alt="Blezgo Logo" class="logo">
-    </div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
     <div class="container">
-      <h1>Blezgo Couriers</h1>
-      <p>Fast. Reliable. Affordable Delivery Services for E-commerce Sellers.</p>
-      <a href="track.html" class="btn">Track Your Package</a>
-      <a href="https://wa.me/+26777506107" class="whatsapp-button" target="_blank">Chat on WhatsApp</a>
+      <a href="index.html">
+        <img src="assets/logo.png" alt="Blezgo Logo" class="logo">
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="track.html">Track</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-overlay">
+      <div class="hero-text">
+        <h1>Delivering Speed & Trust</h1>
+        <p>Your one-stop solution for secure and reliable logistics across the country.</p>
+        <a href="track.html" class="btn">Track Your Parcel</a>
+      </div>
     </div>
   </header>
 
-  <footer>
-    <p>&copy; 2025 Blezgo Couriers. All rights reserved.</p>
+  <!-- SERVICES -->
+  <section class="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="service-grid">
+        <div class="service-box">
+          <h3>Nationwide Delivery</h3>
+          <p>From capital cities to rural towns, we deliver everywhere, every day.</p>
+        </div>
+        <div class="service-box">
+          <h3>Real-Time Tracking</h3>
+          <p>Track your parcel every step of the way with our live system.</p>
+        </div>
+        <div class="service-box">
+          <h3>Secure Handling</h3>
+          <p>Packages are protected with our industry-standard security protocols.</p>
+        </div>
+        <div class="service-box">
+          <h3>Business Logistics</h3>
+          <p>Custom solutions for businesses needing scale, speed, and reliability.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container">
+      <h2>Ready to ship?</h2>
+      <p>Join hundreds of customers who trust Blezgo Couriers for their logistics needs.</p>
+      <a href="contact.html" class="btn">Contact Us</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Blezgo Couriers. All Rights Reserved.</p>
+    </div>
   </footer>
+
 </body>
 </html>
 <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
