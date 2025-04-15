@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Admin Dashboard | Blezgo Couriers</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+  <script defer src="firebase.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="hero">
+    <div class="navbar">
+      <a href="index.html">
+        <img src="assets/logo.png" alt="Blezgo Logo" class="logo">
+      </a>
+    </div>
+    <div class="container">
+      <h1>Admin Dashboard</h1>
+      <input type="text" id="packageId" placeholder="Tracking ID">
+      <input type="text" id="packageStatus" placeholder="Status (e.g. Delivered, In Transit)">
+      <input type="text" id="updateTime" placeholder="Last Updated (e.g. April 15, 2025)">
+      <button onclick="updatePackage()">Update Package</button>
+      <p id="adminResult"></p>
+    </div>
+  </header>
+</body>
+</html>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
